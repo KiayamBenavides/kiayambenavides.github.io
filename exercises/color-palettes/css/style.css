@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#palette-1-heading {
+    font-family: Arial;
+    text-align: center;
+}
+
+#p1-c1 {
+    background-color: #01BAEF;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    padding: 24px;
+}
+
+#p1-c2 {
+    background-color: #6D3B47;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    padding: 24px;
+}
+
+#p1-c3 {
+    background-color: #20BF55;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette-2-heading {
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+
+#p2-c1 {
+    background-color: #AF1B3F;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    padding: 24px;
+}
+
+#p2-c2 {
+    background-color: #EFC69B;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    padding: 24px;
+}
+
+#p2-c3 {
+    background-color: #473144;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    padding: 24px;
+}
+
+#palette-3-heading {
+    font-family: Geneva;
+    text-align: center;
+}
+
+#p3-c1 {
+    background-color: #6C7D47;
+    color: white;
+    font-family: Geneva;
+    text-align: center;
+    padding: 24px;
+}
+
+#p3-c2 {
+    background-color: #575C55;
+    color: white;
+    font-family: Geneva;
+    text-align: center;
+    padding: 24px;
+}
+
+#p3-c3 {
+    background-color: #45425A;
+    color: white;
+    font-family: Geneva;
+    text-align: center;
+    padding: 24px;
+}
