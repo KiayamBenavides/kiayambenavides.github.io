@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas: 
+        "header header"
+        "sidebar main";
+}
+
+#header {
+    /* background-color: lightskyblue; */
+    grid-area: header;
+    padding: 0px 36px;
+}
+
+#sidebar {
+    /* background-color: lightcyan; */
+    grid-area: sidebar;
+    padding: 0px 24px;
+}
+
+#main {
+    /* background-color: lightgoldenrodyellow; */
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header #you {
+    color: white;
+}
+
+#header #tube {
+    color: white;
+    background-color: crimson;
+    padding: 4px;
+    border-radius: 12px;
+}
+
+#sidebar ul {
+    padding: 12px 0px;
+    margin: 0px;
+    list-style-type: none;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+#sidebar ul a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 12px;
+}
+
+/* pseudo-class */
+#sidebar ul a:hover {
+    background-color: crimson;
+    border-radius: 12px;
+}
+
+.youtube-item {
+    flex: 250px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+
+/* .youtube-item .thumbnail-placeholder { */
+    /* aspect-ratio: 16 / 9; */
+    /* background: radial-gradient(at top left, crimson, orange) ; */
+    /* border-radius: 8px; */
+/* } */
+
+.youtube-item h4 {
+    margin: 8px;
+}
+
+.youtube-item h4 a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.youtube-item h4 a:hover {
+    text-decoration: underline;
+}
+
+.youtube-item .video-details {
+    margin: 8px;
+    font-size: 14px;
+    color: crimson;
+}
+
+.youtube-item .video-channel {
+    margin-bottom: 4px;
+}
+
+#thumbnail1 {
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+}
+
+#thumbnail2 {
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+}
+
+#thumbnail3 {
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+}
+
+#thumbnail4 {
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+}
+
+#thumbnail5 {
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+}
+
+#thumbnail6 {
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+}
+
+#grid-layout {
+    aspect-ratio: 16 / 9;
+    background-color: rgb(12, 12, 12);
+    border-radius: 8px;
+}
