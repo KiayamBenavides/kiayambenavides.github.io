@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#page-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding-left: 100px;
+    margin-top: 100px;
+}
+
+#first-column {
+    background-color: darkkhaki;
+    text-align: center;
+    border-style: 50px solid white;
+}
+
+#second-column {
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+
+#third-column {
+    background-color: darkcyan;
+    text-align: left;
+}
+
+#graded-card-1 {
+    width: 100px;
+    border-radius: 8px;
+}
+
+#graded-card-2 {
+    width: 100px;
+    border-radius: 8px;
+}
+
+#ungraded-card {
+    width: 100px;
+    border-radius: 8px;
+}
+
+#main-card {
+    width: 300px;
+}
+
+#card-info li {
+    padding: 8px 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
