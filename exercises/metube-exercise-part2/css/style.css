@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(12, 12, 12);
 }
 
 #grid-layout {
@@ -107,36 +108,35 @@ body {
 
 #thumbnail1 {
     aspect-ratio: 16 / 9;
-    border-radius: 8px;
+    border-radius: 10px 0 10px 0;
 }
 
 #thumbnail2 {
     aspect-ratio: 16 / 9;
-    border-radius: 8px;
+    border-radius: 10px 0 10px 0;
 }
 
 #thumbnail3 {
     aspect-ratio: 16 / 9;
-    border-radius: 8px;
+    border-radius: 10px 0 10px 0;
 }
 
 #thumbnail4 {
     aspect-ratio: 16 / 9;
-    border-radius: 8px;
+    border-radius: 10px 0 10px 0;
 }
 
 #thumbnail5 {
     aspect-ratio: 16 / 9;
-    border-radius: 8px;
+    border-radius: 10px 0 10px 0;
 }
 
 #thumbnail6 {
     aspect-ratio: 16 / 9;
-    border-radius: 8px;
+    border-radius: 10px 0 10px 0;
 }
 
 #grid-layout {
-    aspect-ratio: 16 / 9;
     background-color: rgb(12, 12, 12);
     border-radius: 8px;
 }
