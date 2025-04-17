@@ -9,25 +9,29 @@ body {
 
 #page-layout {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 10% 1fr 1fr;
     padding-left: 100px;
     margin-top: 100px;
+    padding-right: 100px;
+    background-color: lightgray;
+    aspect-ratio: 16 / 9;
 }
 
 #first-column {
-    background-color: darkkhaki;
+    /* background-color: darkkhaki; */
     text-align: center;
-    border-style: 50px solid white;
+    padding-top: 45%;
 }
 
 #second-column {
-    background-color: darkgoldenrod;
+    /* background-color: darkgoldenrod; */
     text-align: center;
 }
 
 #third-column {
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
     text-align: left;
+    color: #111111;
 }
 
 #graded-card-1 {
@@ -36,22 +40,35 @@ body {
 }
 
 #graded-card-2 {
-    width: 100px;
+    width: 90px;
     border-radius: 8px;
 }
 
 #ungraded-card {
-    width: 100px;
+    width: 90px;
     border-radius: 8px;
 }
 
 #main-card {
     width: 300px;
+    padding-top: 10%;
 }
 
 #card-info li {
-    padding: 8px 0px;
-    margin: 0px;
+    margin: 10px;
     list-style-type: none;
+    border-radius: 100px;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    width: 90%;
+    color: white;
 }
 
+.text {
+    margin: 55px;
+}
+
+.card-info {
+    margin: 55px;
+}
