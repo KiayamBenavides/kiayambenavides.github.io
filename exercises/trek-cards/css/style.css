@@ -32,7 +32,8 @@
     font-size: 20px;
     font-weight: 1px;
     transition:
-        background-color .5s, color .5s;
+        background-color .5s,
+        color .5s;
 }
 
 .card-style-1 p {
@@ -73,6 +74,6 @@
 }
 
 .card-style-1 a:hover {
-    background-color: floralwhite;
-    color: green;
+    background-color: darkslategray;
+    color: white;
 }
