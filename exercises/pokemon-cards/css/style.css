@@ -99,3 +99,16 @@
     border: 15px solid white;
     padding: 20px;
 }
+
+.power {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description {
+    padding-top: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
