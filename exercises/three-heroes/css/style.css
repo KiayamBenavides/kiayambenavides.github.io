@@ -28,6 +28,14 @@ body {
     margin-bottom: 0px;
 }
 
+#hero-1 h4 {
+    font-size: 50px;
+    position: static;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+
 #hero-1 a {
     background-color: white;
     border: 10px solid white;
@@ -63,6 +71,15 @@ body {
     margin-left: 55%;
 }
 
+#hero-2 h4 {
+    font-size: 50px;
+    position: static;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    margin-left: 55%;
+}
+
 #hero-2 a {
     background-color: white;
     border: 10px solid white;
@@ -93,6 +110,18 @@ body {
     color: white;
     margin-bottom: 0px;
     right: 10%;
+}
+
+#hero-3 h4 {
+    font-size: 50px;
+    position: static;
+    color: white;
+    /* margin-bottom: 25px; */
+    /* margin-top: 0px; */
+    margin-right: 10%;
+    margin-bottom: 1px;
+    margin-top: 0px;
+
 }
 
 #hero-3 a {
