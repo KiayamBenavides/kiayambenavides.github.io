@@ -35,6 +35,7 @@
 .data {
     font-size: 12px;
     border: 2px solid white;
+    font-weight: bold;
 }
 
 #pokemon-card-1 img {
