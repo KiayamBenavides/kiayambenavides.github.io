@@ -53,11 +53,13 @@ body {
 }
 
 .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    margin-bottom: 25px;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    justify-content: space-between;
+    /* margin-bottom: 25px; */
     text-align: center;
+    display: flex;
+    padding: 30px;
 }
 
 .cards a {
