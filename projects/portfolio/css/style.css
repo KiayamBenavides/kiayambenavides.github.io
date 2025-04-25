@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#background {
+    background: linear-gradient(lightslategray, black);
+}
+
+#layout {
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#hero{
+    background-image: url("../images/urban-hi-res-2nse.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+#hero h1 {
+    color: white;
+    font-size: 150px;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    font-family: "Oxanium", sans-serif;
+}
+
+#hero a {
+    color: white;
+    text-decoration: none;
+    border: 15px solid red;
+    background-color: red;
+    margin-top: 40%;
+    margin-left: 80%;
+    margin-bottom: 30%;
+    font-family: "Oxanium", sans-serif;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.cards a {
+    text-decoration: none;
+    color: white;
+    border: 10px solid black;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.gallery-work {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 25px;
+    gap: 10px;
+    border: 20px solid black;
+    background-color: lightslategray;
+}
+
+.gallery-work img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
