@@ -8,15 +8,36 @@
     of the setup.css styling if you do so.
 */
 
+/* .card-style-2 {
+    max-width: 350px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 25px;
+} */
 
 .card-style-2 {
+    display: flex;
+    flex-direction: column;
     width: 350px;
-    margin: 24px;
     background-color: white;
+    border-radius: 30px;
+    flex: 1;
+    padding: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 100%;
 }
 
-.card-style-2 img {
+.profile-pic-container img{
     width: 100%;
+    border-radius: 100%;
+    padding: 40px;
+    margin-bottom: -70px;
+}
+
+.card-style-2 h2, p, img {
+    text-align: center;
 }
 
 .animagram-header {
@@ -25,45 +46,13 @@
     align-items: center;
 }
 
-/* .profile-pic-container img { */
-    width: 100%;
-    border-radius: 100px;
+.brand-name {
+    font-size: 25px;
 }
 
 .animagram-footer {
     display: flex;
-    font-size: 25px;
     justify-content: space-between;
-}
-
-/* .animagram-header, .brand { */
     font-size: 25px;
-}
-
-/* #animagram-card-1 { */
-    /* background: white; */
-    border-radius: 50px;
-    padding: 36px 45px;
-    text-align: center;
-}
-
-/* #animagram-card-2 { */
-    /* background: white; */
-    border-radius: 50px;
-    padding: 36px 45px;
-    text-align: center;
-}
-
-/* #animagram-card-3 { */
-    /* background: white; */
-    border-radius: 50px;
-    padding: 36px 45px;
-    text-align: center;
-}
-
-/* #animagram-card-4 { */
-    /* background: white; */
-    border-radius: 50px;
-    padding: 36px 45px;
-    text-align: center;
+    padding-top: 50px;
 }
