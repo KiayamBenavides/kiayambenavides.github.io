@@ -23,8 +23,14 @@
 .profile-pic-container img {
     width: 100%;
     border-radius: 100%;
-    padding: 40px;
-    margin-bottom: -70px;
+}
+
+.profile-pic-container {
+    padding: 25px 40px;
+}
+
+.card-style-2 h2 {
+    margin-bottom: 0px;
 }
 
 .card-style-2 h2 , p , img {
