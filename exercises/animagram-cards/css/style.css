@@ -26,15 +26,21 @@
 }
 
 .profile-pic-container {
-    padding: 25px 40px;
+    padding: 25px 50px;
 }
 
 .card-style-2 h2 {
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .card-style-2 h2 , p , img {
     text-align: center;
+}
+
+.card-style-2 p {
+    margin-bottom: 0px;
+    padding-top: 12px;
 }
 
 .animagram-header {
