@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#layout-1 {
+    background: linear-gradient(
+        to left,
+        #A6867B,
+        #A68B6A
+        );
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+#layout-2 {
+    background: linear-gradient(
+        to left,
+        yellow,
+        blue
+        );
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+#layout-3 {
+    background: linear-gradient(
+        to left,
+        orange,
+        black
+        );
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+#column-layout {
+    background: black;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section-1 a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo-1 a {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+#logo-2 a {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+#logo-3 a {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+#cta-button-1 a {
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+#cta-button-2 a {
+    color: white;
+    text-decoration: none;
+    margin-left: 24px;
+}
+
+#cta-button-3 a {
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.sub-button {
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
