@@ -119,9 +119,9 @@ body {
 
 /* Tablet Breakpoint View, adjust size in html preview */
 @media screen and (max-width: 740px) and (min-width: 450px) {
-    body {
+    /* body {
         background-color: skyblue;
-    }
+    } */
 
     .content-container h1 {
         font-size: 28px;
@@ -147,9 +147,9 @@ body {
 
 /* Mobile Breakpoint View, Adjust size to see red background in html site view */
 @media screen and (max-width: 450px) {
-    body {
+    /* body {
         background-color: firebrick;
-    }
+    } */
 
     #nav {
         flex-direction: column;
