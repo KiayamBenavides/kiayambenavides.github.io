@@ -29,7 +29,7 @@ body {
 }
 
 #hero {
-    background-image: url("../images/dog1.jpg");
+    background-image: url("../images/dogbackground1.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
