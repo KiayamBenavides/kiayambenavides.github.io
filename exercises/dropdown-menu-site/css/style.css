@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    margin-right: 25px;
+    padding: 5px 20px;
+    align-items: center;
+}
+
+#navbar h2 {
+    margin-left: 25px;
+    margin-right: auto;
+}
+
+#hero {
+    background-image: url("../images/dog1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.dog {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 580px;
+    border-radius: 25px;
+    padding: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
