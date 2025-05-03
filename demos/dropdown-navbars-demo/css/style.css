@@ -8,7 +8,11 @@ body {
 }
 
 #navbar {
-        background-color: lightslategray;
+    background: linear-gradient(
+        to bottom,
+        #109Cb8,
+        #0E5B96
+        );
         display: flex;
         align-items: center;
 }
@@ -17,11 +21,15 @@ body {
     display: inline-block;
     text-decoration: none;
     padding: 24px;
-    color: Black;
+    color: white;
 }
 
 #navbar a:hover {
-    background-color: lightsteelblue;
+    background: linear-gradient(
+        to top,
+        #109Cb8,
+        #0E5B96
+    );
 }
 
 #navbar #logo {
@@ -55,52 +63,19 @@ body {
 }
 
 .dropdown-menu a {
-    background-color: lightslategray;
+    background-color: darkslateblue;
     width: 100%;
     min-width: 200px;
 }
+
+/* .dropdown-menu a:first-child {
+    border-radius: 24px 24px 0px 0px;
+} */
 
 .dropdown-menu a:last-child {
     border-radius: 0px 0px 24px 24px;
 }
 
 #navbar .dropdown-menu a:hover {
-    background: lightsteelblue;
-}
-
-#hero-3 {
-    background-image: url("../images/dogbackground1.jpg");
-    height: 100vh;
-    background-position: center center;
-}
-
-.hero-content-2 {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 500px;
-    padding: 24px;
-    border-radius: 24px;
-    margin: auto;
-}
-
-.hero-content-3 {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 500px;
-    padding: 15px;
-    border-radius: 24px;
-}
-
-.hero-content-4 {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 500px;
-    padding: 15px;
-    border-radius: 24px;
+    background: slateblue;
 }
