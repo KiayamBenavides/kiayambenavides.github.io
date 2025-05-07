@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar-content {
+    background-color: #152602;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#navbar-content img{
+    width: 100px;
+}
+
+#navbar-content a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.text a {
+    margin: 20px;
+}
+
+.hero-content {
+    background-image: url(../images/lake-2598492_1280.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    /* width: 100%; */
+    height: 100vw;
+}
+
+.single-column {
+    border: 10px solid white;
+    padding: 50px;
+    margin: 48px auto;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+}
+
+.single-column a {
+    text-decoration: none;
+    color: white;
+    background-color: #152602;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    max-width: 1200px;
+    text-align: center;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.card1 img {
+    width: 50%;
+    border-radius: 0px 50px;
+}
+
+.card1 h1 {
+    font-size: 50px;
+    margin: 100px;
+}
+
+.card2 {
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    max-width: 1200px;
+    margin-top: 0px;
+    text-align: center;
+    flex-direction: row;
+}
+
+.card2 img {
+    width: 50%;
+    border-radius: 0px 50px;
+}
+
+.card2 h1 {
+    font-size: 50px;
+    margin: 100px;
+}
+
+#card-content-column {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    flex-direction: wrap;
+    gap: 36px;
+    justify-content: center;}
+
+#card-content-column img {
+    width: 100%;
+}
+
+.card-content {
+    background-color: lightslategray;
+    padding: 50px;
+    border-radius: 50px 0px 50px 0px;
+}
