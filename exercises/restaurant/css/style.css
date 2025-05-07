@@ -14,7 +14,7 @@ body {
     gap: 10px;
 }
 
-#navbar-content img{
+#navbar-content img {
     width: 100px;
 }
 
@@ -140,7 +140,8 @@ body {
     display: flex;
     flex-direction: wrap;
     gap: 36px;
-    justify-content: center;}
+    justify-content: center;
+}
 
 #card-content-column img {
     width: 100%;
