@@ -26,7 +26,6 @@ body {
     background-color: #66BC3F;
     width: 100%;
     min-width: 200px;
-    transition: 0.5s;
     border-radius: 0px 10px 0px 10px;
 }
 
@@ -37,29 +36,39 @@ body {
 .text a {
     margin: 10px;
     padding: 10px;
+    transition: 0.5s;
 }
 
 .hero-content {
-    background-image: url(../images/lake-2598492_1280.jpg);
+    background-image: url(../images/claudio-testa--SO3JtE3gZo-unsplash.jpg);
     background-size: cover;
     background-position: center center;
     display: flex;
-    height: 100%;
+    object-fit: cover;
+}
+
+.footer-content {
+    background-color: #152602;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #66BC3F;
+    justify-content: center;
 }
 
 .hero-content-2 {
-    background-image: url(../images/lake-2598492_1280.jpg);
+    background-image: url(../images/okeykat-g4lw-MLwg7g-unsplash.jpg);
     background-size: cover;
     background-position: center center;
     display: flex;
-    height: 100%;
+    object-fit: cover;
 }
 
 .single-column {
-    border: 10px solid white;
+    border: 10px solid #66BC3F;
     padding: 50px;
     margin: 48px auto;
-    background-color: crimson;
+    background-color: #152602;
     color: white;
     text-align: center;
 }
@@ -67,9 +76,9 @@ body {
 .single-column a {
     text-decoration: none;
     color: white;
-    background-color: #152602;
-    padding: 10px;
+    background-color: #66BC3F;
     border-radius: 20px;
+    padding: 10px;
 }
 
 .card1 {
@@ -85,6 +94,7 @@ body {
 .card1 img {
     width: 50%;
     border-radius: 0px 50px;
+    border: 2px solid #66BC3F;
 }
 
 .card1 h1 {
@@ -105,6 +115,7 @@ body {
 .card2 img {
     width: 50%;
     border-radius: 0px 50px;
+    border: 2px solid #66BC3F;
 }
 
 .card2 h1 {
@@ -123,8 +134,11 @@ body {
 }
 
 .featured-dish img {
-    width: 50%;
+    width: 100%;
+    height: 600px;
     border-radius: 0px 50px;
+    object-fit: cover;
+    border: 2px solid white;
 }
 
 .featured-dish h1 {
@@ -136,7 +150,6 @@ body {
 .featured-dish h4 {
     font-size: 30px;
     margin-top: 20px;
-    margin-bottom: 50px;
 }
 
 #card-content-column {
@@ -148,7 +161,7 @@ body {
 
 #card-content-column img {
     width: 100%;
-    height: 50%;
+    height: 200px;
     object-fit: cover;
     border-radius: 50px 0px 50px 0px;
     margin-bottom: 0px;
@@ -156,7 +169,19 @@ body {
 }
 
 .card-content {
-    background-color: lightslategray;
+    background-color: black;
     border-radius: 50px 0px 50px 0px;
+    flex: 1;
+    border: 2px solid #66BC3F;
 }
 
+.card-content a {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    #navbar-content {
+        flex-direction: column;
+    }
+}
