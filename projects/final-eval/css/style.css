@@ -7,3 +7,61 @@ body {
     font-family: sans-serif;
 }
 
+.single-column-layout {
+    background-color: lightcoral;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    min-width: 500px;
+    padding: 50px;
+    margin: 48px auto;
+}
+
+#vs-text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+.cards {
+    display: flex;
+}
+
+.cards img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    padding: 20px;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+}
+
+.cta-button-1 a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.cta-button-2 a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#hero-content {
+    background-image: url(../);
+}
