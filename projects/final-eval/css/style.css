@@ -37,9 +37,17 @@ body {
     padding: 20px;
 }
 
-#buttons {
+.buttons {
     display: flex;
     align-items: center;
+}
+
+.cta-button-1 a:hover {
+    background-color: blue;
+}
+
+.cta-button-2 a:hover {
+    background-color: blue;
 }
 
 .cta-button-1 a {
