@@ -146,8 +146,8 @@ body {
     display: flex;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1500px) (min-width: 900px) {
     .single-column-layout {
-        width: 80%;
+        width: 100%;
     }
 }
