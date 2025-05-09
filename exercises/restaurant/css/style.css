@@ -196,9 +196,10 @@ body {
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1460px) {
     #navbar {
         flex-direction: column;
+        background-color: red;
     }
 
     .content img {
