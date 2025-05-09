@@ -73,6 +73,10 @@ body {
     text-align: center;
 }
 
+.single-column h1 {
+    margin-bottom: 50px;
+}
+
 .single-column a {
     text-decoration: none;
     color: white;
@@ -86,7 +90,7 @@ body {
     align-items: center;
     width: 80vw;
     max-width: 1200px;
-    margin-top: 0px;
+    margin-top: 50px;
     text-align: center;
     flex-direction: row;
 }
@@ -110,9 +114,10 @@ body {
     align-items: center;
     width: 80vw;
     max-width: 1200px;
-    margin-top: 0px;
+    margin-top: 50px;
     text-align: center;
     flex-direction: row;
+    margin-bottom: 100px;
 }
 
 .card2 img {
