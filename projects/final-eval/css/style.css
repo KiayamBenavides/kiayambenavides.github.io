@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Carrois+Gothic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -146,8 +145,10 @@ body {
     display: flex;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) and (min-width: 530px) {
     .single-column-layout {
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 }
