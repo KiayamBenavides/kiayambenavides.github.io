@@ -199,7 +199,7 @@ body {
 @media screen and (max-width: 1460px) {
     #navbar {
         flex-direction: column;
-        background-color: red;
+        justify-content: center;
     }
 
     .content img {
