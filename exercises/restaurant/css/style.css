@@ -86,7 +86,9 @@ body {
     color: white;
     background-color: #66BC3F;
     border-radius: 20px;
-    padding: 10px;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .card1 {
