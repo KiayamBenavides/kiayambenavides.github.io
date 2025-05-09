@@ -15,10 +15,7 @@ body {
 }
 
 #navbar-content img {
-    width: 100%;
     height: 25vh;
-    object-fit: cover;
-    align-items: center;
 }
 
 #navbar-content a {
