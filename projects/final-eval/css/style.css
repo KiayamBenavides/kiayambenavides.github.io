@@ -33,7 +33,7 @@ body {
 
 #name-text h5 {
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 25px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -41,14 +41,15 @@ body {
 #superbowl-text h1 {
     font-family: "Cal Sans", sans-serif;
     font-size: 55px;
-    margin-top: 5px;
+    margin-top: 8px;
     margin-bottom: 0px;
 }
 
 #party-text h3 {
     font-family: "Montserrat", sans-serif;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 8px;
+    font-size: 25px;
 }
 
 #logo-text-1  h2 {
