@@ -145,3 +145,9 @@ body {
     background-size: cover;
     display: flex;
 }
+
+@media screen and (max-width: 1600px) {
+    .single-column-layout {
+        width: 80%;
+    }
+}
