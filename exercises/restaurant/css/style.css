@@ -196,8 +196,12 @@ body {
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 480px) {
-    #navbar-content {
+@media screen and (max-width: 1600px) {
+    #navbar {
         flex-direction: column;
+    }
+
+    .content img {
+        width: 100%;
     }
 }
