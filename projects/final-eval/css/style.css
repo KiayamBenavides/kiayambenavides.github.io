@@ -97,6 +97,7 @@ body {
     margin-bottom: 15px;
     font-family: "Montserrat", sans-serif;
     gap: 20px;
+    transition: none;
 }
 
 .cta-button-1 {
@@ -124,7 +125,7 @@ body {
     margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
-    transition: none;
+    transition: 0.5s;
 }
 
 .cta-button-2 a {
