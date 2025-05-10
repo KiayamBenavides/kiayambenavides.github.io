@@ -200,20 +200,12 @@ body {
 }
 
 @media screen and (min-width: 500px) and (max-width: 855px){
-    #navbar-content {
-        justify-content: center;
-    }
-
     .single-column {
         flex-direction: column;
         width: 100%;
     }
 
     #card-content-column {
-        flex-direction: column;
-    }
-
-    .content {
         flex-direction: column;
     }
 
