@@ -91,7 +91,7 @@ body {
 .card1 {
     display: flex;
     align-items: center;
-    width: 80vw;
+    /* width: 80vw; */
     max-width: 1200px;
     margin-top: 50px;
     text-align: center;
@@ -115,7 +115,7 @@ body {
 .card2 {
     display: flex;
     align-items: center;
-    width: 80vw;
+    /* width: 80vw; */
     max-width: 1200px;
     margin-top: 50px;
     text-align: center;
@@ -205,12 +205,27 @@ body {
     }
 
     .single-column {
-        width: 100%;
         flex-direction: column;
-        justify-content: center;
+        width: 100%;
     }
 
     #card-content-column {
+        flex-direction: column;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .hero-content {
+        flex-direction: column;
+    }
+
+    .card1 {
+        flex-direction: column;
+    }
+
+    .card2 {
         flex-direction: column;
     }
 }
