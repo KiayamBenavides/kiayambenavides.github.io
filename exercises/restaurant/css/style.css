@@ -199,9 +199,18 @@ body {
     margin-bottom: 20px;
 }
 
-@media screen and (min-width: 600px) and (max-width: 1200px){
-    #navbar {
+@media screen and (min-width: 500px) and (max-width: 855px){
+    #navbar-content {
+        justify-content: center;
+    }
+
+    .single-column {
+        width: 100%;
         flex-direction: column;
         justify-content: center;
+    }
+
+    #card-content-column {
+        flex-direction: column;
     }
 }
